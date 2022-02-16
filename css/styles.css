@@ -1,0 +1,192 @@
+/* INDEX.HTML STYLES */
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #2f303a;
+  --third-text-color: #ffffff;
+}
+body {
+  background-color: #fff;
+  color: var(--main-text-color);
+  font-family: roboto, sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.hero-title,
+.advantages-title {
+  text-transform: uppercase;
+}
+/* logo */
+.logo {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+}
+.logo-part {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+}
+/* site nav */
+.site-nav {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.site-nav-link {
+  color: var(--secondary-text-color);
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+.site-nav-link.current {
+  color: var(--accent-color);
+}
+/* header contacts */
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+}
+.header-contact {
+  color: var(--main-text-color);
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+/* hero section */
+.button.primary {
+  background-color: var(--accent-color);
+  cursor: pointer;
+  color: var(--third-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 700;
+}
+.button.primary:hover,
+.button.primary:focus {
+  background-color: #188ce8;
+}
+.hero-title {
+  color: var(--third-text-color);
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+}
+.hero {
+  background-color: var(--background-color);
+}
+/* advantages section */
+.advantages-title {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.advantages-text {
+  color: var(--main-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+/* what we do */
+.section-title {
+  color: var(--secondary-text-color);
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.section-name {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.section-profession {
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+/* our team */
+.section.team {
+  background-color: #f5f4fa;
+}
+/* footer */
+address {
+  font-style: normal;
+}
+.footer {
+  background-color: var(--background-color);
+}
+.footer-address-map {
+  color: var(--third-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+.footer-address-map:hover,
+.footer-address-map:focus {
+  color: var(--accent-color);
+}
+.footer-address {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--accent-color);
+}
+.downlogo-part {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+}
+.footer-logo {
+  color: var(--third-text-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+}
+/* PORTFOLIO.HTML STYLES */
+/* filters */
+.button.secondary {
+  color: var(--secondary-text-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
+}
+/* products */
+.product-name {
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+}
+.product-sphere {
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 400;
+}
