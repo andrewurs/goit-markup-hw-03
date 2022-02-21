@@ -263,6 +263,8 @@ header {
 .team {
   background-color: #f5f4fa;
   display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .section {
   padding-right: 0px;
