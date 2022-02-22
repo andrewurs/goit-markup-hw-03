@@ -224,6 +224,7 @@ header {
 .boxes {
   display: flex;
   margin-top: 50px;
+  margin-bottom: 0;
 }
 .box {
   margin-right: 30px;
@@ -304,6 +305,10 @@ header {
 address {
   font-style: normal;
 }
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer {
   background-color: var(--background-color);
   margin-left: auto;
@@ -355,6 +360,9 @@ address {
   text-decoration: none;
   font-family: Raleway, sans-serif;
 }
+.footer-contacts {
+  margin: 0;
+}
 /* PORTFOLIO.HTML STYLES */
 /* filters */
 .button-secondary {
@@ -364,12 +372,17 @@ address {
   font-size: 16px;
   line-height: 1.6;
   font-weight: 500;
-  margin-right: 8px;
   height: 38px;
   border: none;
   border-radius: 4px;
   text-align: center;
   padding: 6px 22px;
+}
+.button-sec {
+  margin-right: 8px;
+}
+.button-sec:last-child {
+  margin-right: 0;
 }
 .button-secondary:hover,
 .button-secondary:focus {
@@ -386,6 +399,7 @@ address {
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
+  margin-bottom: 4px;
 }
 .product-sphere {
   color: var(--main-text-color);
@@ -402,6 +416,7 @@ address {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  margin-top: 0;
 }
 .portfolio {
   width: 1200px;
