@@ -339,7 +339,6 @@ footer {
   color: var(--accent-color);
 }
 .container.footer {
-  padding-top: 60px;
   display: flex;
   flex-direction: column;
 }
